@@ -1,0 +1,10 @@
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-fancy-button',
+  templateUrl: './fancy-button.component.html',
+  styleUrls: ['./fancy-button.component.css']
+})
+export class FancyButtonComponent {
+  @Input() goto: string;
+}
